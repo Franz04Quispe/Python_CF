@@ -40,6 +40,6 @@ for key,value in user.items():
 # Si no se especifica el paso, se inicia en 1.
 # Si no se especifica el fin, se inicia en 0.
 # El rango se puede usar para iterar sobre una lista, tupla o diccionario.
-
+#             range(inicio, fin, paso)
 for number in range(5, 10 +1, 2):
     print("El número es: ",number)
